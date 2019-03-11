@@ -1,0 +1,47 @@
+.swap {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/*Style for the clear input button.*/
+.clear-button {
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 33px;
+  height: 33px;
+  background-color: white;
+}
+
+/*This code only shows the clear button when the width is 360px or less.*/
+@media screen and (min-width: 360px) { 
+   .clear-button {
+    display: none;
+  }
+}
+
+.currencies {
+  margin-bottom: 20px;
+}
+
+h5, h2 {
+  margin-left: 15px;
+}
+
+.bold {
+  font-weight: bold; 
+}
+
+/*Style for currency selectors and inputs.*/
+input {
+  margin: 5px 5px 5px 5px; 
+  font-weight: bold;
+}
+
+select {
+  max-width: 100px;
+  margin-left: 15px;
+  font-weight: bold;
+}
